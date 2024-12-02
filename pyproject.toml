@@ -21,6 +21,10 @@ classifiers = [
 ]
 requires-python = ">=3.8.1"
 dynamic = ["version"]
+dependencies = [
+    "PyYAML>3.11",
+    "nltk"
+]
 
 [project.optional-dependencies]
 spark = [
